@@ -1,0 +1,38 @@
+{
+  "name": "koa-test",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon bin/run",
+    "koa": "./node_modules/.bin/runkoa bin/www",
+    "pm2": "pm2 start bin/run ",
+    "test": "./node_modules/.bin/mocha -u bdd",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-convert": "^1.2.0",
+    "koa-helmet": "^5.2.0",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.6.0",
+    "koa-logger": "^3.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "log4js": "^6.1.0",
+    "mongoose": "^5.7.13",
+    "qr-image": "^3.2.0",
+    "request": "^2.88.0",
+    "runkoa": "^1.5.9"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.1",
+    "supertest": "^4.0.2"
+  }
+}
