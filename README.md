@@ -165,7 +165,7 @@ class User extends BaseDal{
 
     // findOne (dataArr = {}) {
     //     return new Promise( (resolve, reject) => {
-    //         this.users.findOne(dataArr, function (e, docs) {
+    //         this.model.findOne(dataArr, function (e, docs) {
     //             if (e) {
     //                 reject(e);
     //             } else {
